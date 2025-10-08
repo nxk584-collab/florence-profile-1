@@ -2,31 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Natalie Kimmel">
     <meta name="description" content="An informational webpage about Florence (Firenze), its history, culture, landmarks, and cuisine">
     <meta name="keywords" content="Florence, Firenze, Tuscany, Duomo, Uffizi, Ponte Vecchio, Italy, Travel">
     <title>All About Florence, Italy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Fjalla+One&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="wrapper">
     <header>
-        <h1>Florence Italy</h1>
-        <p> From the Renaissance to the heart of Tuscany, Florence blends <strong>world-class art, timeless architecture, a long history, and a lively food scene across the <a href="https://www.britannica.com/place/Arno-River">Arno River</a></strong></p>
-         </header>
+        <h1><span>Florence</span> Italy</h1>
+        <p> From the Renaissance to the heart of Tuscany, Florence blends <strong>world-class art, timeless architecture, a long history, and a lively food scene across the <a href="https://www.britannica.com/place/Arno-River"> Arno River</a></strong></p>
+         <nav>
+        <ul>
+            <li><a href="#history">History</a></li>
+            <li><a href="#culture">Culture</a></li>
+            <li><a href="#landmarks">Landmarks</a></li>
+            <li><a href="#food">Local</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+        </ul>
+    </nav>
+    </header>
          <!--Main Section-->
     <main>
         <!--Background Info-->
-        <section>
+        <section id="history">
             <h2>History</h2>
-            <p>Originally founded as<em>“Florentina”</em> by the Romans, Florence rose to
+            <p class="highlight">Originally founded as <em>“Florentina”</em> by the Romans, Florence rose to
 wealth from its prominence among banking families like the Medici. From the 14th to the 16th centuries, its workshops and studios produced talent from top-tier artists like Brunelleschi, Donatello, and Michelangelo. This established the city as a beacon of art. </p>
         </section>
-        <section>
+        <section id="culture">
             <h2>Culture</h2>
-            <p>Florence is very compact, yet it features many layers of the city. The
+            <p class="fancy-text">Florence is very compact, yet it features many layers of the city. The
 Duomo features grand architecture, the Oltrarno is known for its artisan cafes, Santa Croce and San Lorenzo leather markets. Some year-round festivals and museums keep the city strong all the time. </p>
         </section>
-        <section>
+        <section id="landmarks">
             <h2>Landmarks</h2>
             <ol>
                 <li><abbr title="Cathedral of Santa Maria del Fiore">Duomo</abbr> with Brunelleschi's dome.</li>
@@ -34,19 +48,28 @@ Duomo features grand architecture, the Oltrarno is known for its artisan cafes, 
                 <li>Ponte Vecchio</li>
             </ol>
         </section>
-<section>
+<section id="food">
     <h3>Local Specialties</h3>
     <ul>
          <li>Bistecca alla Fiorentina</li>
          <li>Gelato</li>
          <li>Ribollita</li>
  </ul>
-</section>
-<section>
+</section> 
+<section id="gallery">
     <h3>Gallery</h3>
-    <img src="images/Cathedral-of-Santa-Maria-del-Fiore-Duomo-Florence-Italy.jpg"  alt="Cathedral of Santa Maraia del Fiore" width="500">
-    <img src="images/Florence-Food-Guide-Best-Pizza-Italy.jpg" alt="Delicious food in Italy" >
-    <img src="images/History-and-resources-of-the-Ponte-Vecchio.jpg.webp" alt="Ponte Vecchio River" >
+    <figure>
+            <img src="images/Cathedral-of-Santa-Maria-del-Fiore-Duomo-Florence-Italy.jpg"  alt="Cathedral of Santa Maraia del Fiore" width="500">
+        <figcaption>Iconic Duomo of Florence</figcaption>
+    </figure>
+    <figure>
+        <img src="images/Florence-Food-Guide-Best-Pizza-Italy.jpg" alt="Delicious food in Italy" >
+        <figcaption>Classic Florentine Pizza</figcaption>
+    </figure>
+    <figure>
+        <img src="images/History-and-resources-of-the-Ponte-Vecchio.jpg.webp" alt="Ponte Vecchio River" >
+        <figcaption>Ponte Vecchio Bridge</figcaption>
+    </figure>
 </section>
     </main>
     <footer>
@@ -54,5 +77,6 @@ Duomo features grand architecture, the Oltrarno is known for its artisan cafes, 
         <p>Author Info: Natalie Kimmel is a student at the University of Miami in the
 Herbert Business School. She is from New York City. She has a passion for fashion, travel, and Italian culture.</p>
     </footer>
+    </div>
 </body>
 </html>
