@@ -26,6 +26,16 @@ h1 span {
    background-color: black;
    padding: 2rem
 }
+.highlight {
+    background-color: blue;
+    color: white;
+    padding: 0.2rem 0.5rem;
+}
+.fancy-text {
+    font-family: cursive;
+    font-size: 1.5rem;
+    color: yellow;
+}
 nav ul li{
     font-family: "Fjalla One", sans-serif;
     list-style: none;
